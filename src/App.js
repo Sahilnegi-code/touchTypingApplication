@@ -117,7 +117,7 @@ useEffect(()=>{
     clearTimeout(time);
   }
 }
-,[second])
+,[second,setEndTime, setShowAccuracy])
 return (
 <>
 
